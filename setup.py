@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
-  name='django-loggable-wrapper',
-  packages=['django-loggable-wrapper'],
+  name='django-loggable-util',
+  packages=['django-loggable-util'],
   version='0.1',
   license='MIT',
   description='Separate logging from class based view business code',
