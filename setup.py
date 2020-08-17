@@ -1,0 +1,26 @@
+from distutils.core import setup
+setup(
+  name='django-loggable-wrapper',
+  packages=['django-loggable-wrapper'],
+  version='0.1',
+  license='MIT',
+  description='Separate logging from class based view business code',
+  author='Ruhshan Ahmed Abir',
+  author_email='ruhshan.ahmed@gmail.com',
+  url='https://github.com/Ruhshan/django-loggable-wrapper',
+  download_url='https://github.com/user/reponame/archive/v_01.tar.gz',
+  keywords=['Django', 'Loggable', 'Wrapper','Generic view','Class based view'],
+  install_requires=[],
+  classifiers=[
+    'Development Status :: 3 - Alpha',
+    'Intended Audience :: Developers',
+    'Topic :: Software Development :: Build Tools',
+    'License :: OSI Approved :: MIT License',
+    'Framework :: Django',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.4',
+    'Programming Language :: Python :: 3.5',
+    'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7',
+  ],
+)
