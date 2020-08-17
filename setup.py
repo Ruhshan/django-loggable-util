@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setup(
   name='django_loggable_util',
   packages=['django_loggable_util'],
-  version='0.0.2',
+  version='0.0.3',
   license='MIT',
   description='Separate logging from class based view business code',
   author='Ruhshan Ahmed Abir',
@@ -14,7 +14,6 @@ setup(
   long_description=long_description,
   long_description_content_type="text/markdown",
   url='https://github.com/Ruhshan/django-loggable-util',
-  download_url="https://github.com/Ruhshan/django-loggable-util/archive/v-0.0.2.tar.gz",
   keywords=['Django', 'Loggable', 'Wrapper','Generic view','Class based view'],
   classifiers=[
     'Development Status :: 3 - Alpha',
