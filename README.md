@@ -20,6 +20,8 @@ path('someurl', Loggable(SomeCBView).as_view(),name='some-url-name'),
 ```
 
 
+
+
 ### Todos
  - Write Tests
  - Support DRF
