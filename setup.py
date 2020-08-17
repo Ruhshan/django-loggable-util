@@ -1,16 +1,20 @@
-from distutils.core import setup
+from setuptools import setup
+
+with open("README.md", "r") as fh:
+  long_description = fh.read()
+
 setup(
-  name='django-loggable-util',
-  packages=['django-loggable-util'],
+  name='django_loggable_util',
+  packages=['django_loggable_util'],
   version='0.1',
   license='MIT',
   description='Separate logging from class based view business code',
   author='Ruhshan Ahmed Abir',
   author_email='ruhshan.ahmed@gmail.com',
+  long_description=long_description,
+  long_description_content_type="text/markdown",
   url='https://github.com/Ruhshan/django-loggable-wrapper',
-  download_url='https://github.com/Ruhshan/django-loggable-util/archive/v_01.tar.gz',
   keywords=['Django', 'Loggable', 'Wrapper','Generic view','Class based view'],
-  install_requires=[],
   classifiers=[
     'Development Status :: 3 - Alpha',
     'Intended Audience :: Developers',
