@@ -8,7 +8,7 @@ setup(
   author='Ruhshan Ahmed Abir',
   author_email='ruhshan.ahmed@gmail.com',
   url='https://github.com/Ruhshan/django-loggable-wrapper',
-  download_url='https://github.com/user/reponame/archive/v_01.tar.gz',
+  download_url='https://github.com/Ruhshan/django-loggable-util/archive/v_01.tar.gz',
   keywords=['Django', 'Loggable', 'Wrapper','Generic view','Class based view'],
   install_requires=[],
   classifiers=[
